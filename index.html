@@ -1,280 +1,107 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <script type="text/javascript">
-        function display(){
-            alert("clicked")
-        }
-    </script>
- <style>
-
-  /* Styling the body */
-  body {
-   margin: 0;
-   padding: 0;
-  }
-  
-  /* Styling section, giving background
-   image and dimensions */
-  section {
-   width: 100%;
-   height: 100vh;
-   background:
-url('https://en.wikipedia.org/wiki/Veer_Surendra_Sai_University_of_Technology');
-   background-size: cover;
-  }
-  
-  /* Styling the left floating section */
-  section .leftBox {
-   width: 50%;
-   height: 100%;
-   float: left;
-   padding: 50px;
-   box-sizing: border-box;
-  }
-  h1:hover{
-    background: #e91e63;
-
-  }
-  
-
-
-  /* Styling the background of
-   left floating section */
-  section .leftBox .content {
-   color: #fff;
-   background: rgba(0, 0, 0, 0.5);
-   padding: 40px;
-   transition: .5s;
-  }
-  
-  /* Styling the hover effect
-   of left floating section */
-  section .leftBox .content:hover {
-   background: #e91e63;
-  }
-  
-  /* Styling the header of left
-   floating section */
-  section .leftBox .content h1 {
-   margin: 0;
-   padding: 0;
-   font-size: 50px;
-   text-transform: uppercase;
-  }
-  
-  /* Styling the paragraph of
-   left floating section */
-  section .leftBox .content p {
-   margin: 10px 0 0;
-   padding: 0;
-  }
-  
-  /* Styling the three events section */
-  section .events {
-   position: relative;
-   width: 50%;
-   height: 100%;
-   background: rgba(0, 0, 0, 0.5);
-   float: right;
-   box-sizing: border-box;
-  }
-  
-  /* Styling the links of
-  the events section */
-  section .events ul {
-   position: absolute;
-   top: 50%;
-   transform: translateY(-50%);
-   margin: 0;
-   padding: 40px;
-   box-sizing: border-box;
-  }
-  
-  /* Styling the lists of the event section */
-  section .events ul li {
-   list-style: none;
-   background: #fff;
-   box-sizing: border-box;
-   height: 200px;
-   margin: 15px 0;
-  }
-  
-  /* Styling the time class of events section */
-  section .events ul li .time {
-   position: relative;
-   padding: 20px;
-   background: #262626;
-   box-sizing: border-box;
-   width: 30%;
-   height: 100%;
-   float: left;
-   text-align: center;
-   transition: .5s;
-  }
-  
-  /* Styling the hover effect
-   of events section */
-  section .events ul li:hover .time {
-   background: #e91e63;
-  }
-  
-  /* Styling the header of time
-   class of events section */
-  section .events ul li .time h2 {
-   position: absolute;
-   margin: 0;
-   padding: 0;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   color: #fff;
-   font-size: 60px;
-   line-height: 30px;
-  }
-  
-  /* Styling the texts of time
-  class of events section */
-  section .events ul li .time h2 span {
-   font-size: 30px;
-  }
-  
-  /* Styling the details
-  class of events section */
-  section .events ul li .details {
-   padding: 20px;
-   background: #fff;
-   box-sizing: border-box;
-   width: 70%;
-   height: 100%;
-   float: left;
-  }
-  
-  /* Styling the header of the
-  details class of events section */
-  section .events ul li .details h3 {
-   position: relative;
-   margin: 0;
-   padding: 0;
-   font-size: 22px;
-  }
-  
-  /* Styling the lists of details
-  class of events section */
-  section .events ul li .details p {
-   position: relative;
-   margin: 10px 0 0;
-   padding: 0;
-   font-size: 16px;
-  }
-  
-  /* Styling the links of details
-  class of events section */
-  section .events ul li .details a {
-   display: inline-block;
-   text-decoration: none;
-   padding: 10px 15px;
-   border: 1.5px solid #262626;
-   margin-top: 5px;
-   font-size: 18px;
-   transition: .5s;
-  }
-  
-  /* Styling the details class's hover effect */
-  section .events ul li .details a:hover {
-   background: #e91e63;
-   color: #fff;
-   border-color: #e91e63;
-  }
- </style>
-</head>
-
-<body>
- <section>
-  <div class="leftBox">
-   <div class="content">
-    <h1>
-     Events and Shows
-    </h1>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>College Events</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
+  </head>
+  <body>
     
-<p>
-   Welcome !!!! Events Page of Vssut , Burla is now live .Now you can get updated about the latest events and all the extra-curricular activity of our college.
-   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-   and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  
-  </p>
+    <nav class="navbar navcol">
+      <h1>VSSUT | Veer Surendra Sai University of Technology</h1>
+    </nav>
+    <main>
+      <div class="maindiv">
 
-   </div>
-  </div>
-
-  <div class="events">
-    <h1 style="text-align:center ; padding-bottom: 30px; margin: 5px; font-size: 25px; color: #fff;">Upcoming Events</h1>
-   <ul>
-    <li>
-     <div class="time">
-      <h2>
-       15 <br><span>March</span>
-      </h2>
-     </div>
-     <div class="details">
-      <h3>
-       Where is the event happening?
-      </h3>
       
-<p>
-  Lorem Ipsum is simply dummy . and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase
-  
-      </p>
+          <div class="card topcard">
+            <img src="./events.jpg"class= "card-img-top" alt="...">
+          </div>
+       
+        
+        
+          <div class="card">
+            <h5>ENIGMA</h5>
+            <img src="./enigma.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">Click Here!!</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <h5>IIC</h5>
+            <img src="./IIC.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">Click Here!!</a>
+            </div>
+          </div>
+        
+       
+          <div class="card">
+            <h5>ROBOTICS</h5>
+            <img src="./robotics.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">Click Here!!</a>
+            </div>
+          </div>
 
+          <div class="card">
+            <h5>VIBRANZ</h5>
+            <img src="./vibranz.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">Click Here!!</a>
+            </div>
+          </div>
 
-      <a href="club1.html" ">View Details</a>
-     </div>
-     <div style="clear: both;"></div>
-    </li>
+          <div class="card">
+            <h5>SOULS</h5>
+            <img src="./souls.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">Click Here!!</a>
+            </div>
+          </div>
 
-    <li>
-     <div class="time">
-      <h2>
-       27 <br><span>May</span>
-      </h2>
-     </div>
-     <div class="details">
-      <h3>
-       Where is the event happening?
-      </h3>
+          <div class="card">
+            <h5>MOVIE</h5>
+            <img src="./movie.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">Click Here!!</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h5>SAE</h5>
+            <img src="./SAE.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">Click Here!!</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h5>PIXELS</h5>
+            <img src="./pixels.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">Click Here!!</a>
+            </div>
+          </div>
+
+          
+          
+        </div>
+
       
-<p>
-  Lorem Ipsum is simply dummy . and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase
-      </p>
-
-      <a href="club2.html">View Details</a>
-     </div>
-     <div style="clear:both;"></div>
-    </li>
-
-    <li>
-     <div class="time">
-      <h2>
-       12 <br><span>August</span>
-      </h2>
-     </div>
-     <div class="details">
-      <h3>
-       Where is the event happening?
-      </h3>
-      
-<p>
-  Lorem Ipsum is simply dummy . and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase
-      </p>
+    </main>
+    
+    
+    
 
 
-      <a href="club3.html">View Details</a>
-     </div>
-     <div style="clear:both;"></div>
-    </li>
-   </ul>
-  </div>
- </section>
-</body>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
 </html>

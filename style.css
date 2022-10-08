@@ -1,0 +1,43 @@
+body{
+    background-color: white;
+}
+.navcol{
+    background-color: #0C2340;
+}
+h1{
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 10px;
+}
+.maindiv{
+    width: 95%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    border: 5px;
+
+    
+}
+.topcard{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    object-fit: cover;
+    background-color: white;
+}
+.card{
+    border: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-img-top{
+    height: 80vh;
+    object-fit: cover;
+}
+
+
+
