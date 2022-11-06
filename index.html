@@ -13,86 +13,135 @@
   <body>
     
     <nav class="navbar navcol">
-      <h1>VSSUT | Veer Surendra Sai University of Technology</h1>
+      
+      <h1><img class="vssut" src="./vssut.jpg" alt=""> VSSUT | Veer Surendra Sai University of Technology</h1>
+      
     </nav>
     <main>
       <div class="maindiv">
-
-      
-          <div class="card topcard">
-            <img src="./events.jpg"class= "card-img-top" alt="...">
-          </div>
-       
-        
-        
-          <div class="card">
-            <h5>ENIGMA</h5>
-            <img src="./enigma.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="#" class="btn btn-primary">Click Here!!</a>
+        <div class="car">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-          </div>
-          
-          <div class="card">
-            <h5>IIC</h5>
-            <img src="./IIC.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="#" class="btn btn-primary">Click Here!!</a>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSe0V6Nn3Dremv-Dv9s5O94YXbWXQVu-am4uSKNbtZ1nvYVlxQ/viewform?usp=sf_link')" >
+                <img src="./E-Summit Poster 700X400.png" class="d-block w-100" alt="...">
+                <!-- <div class="carousel-caption d-none d-md-block">
+                  <h5>E-summit 2022</h5>
+                  <p>The biggest event for Entreuprenuer happing this Sunday.</p>
+                </div> -->
+              </div>
+              <div class="carousel-item" data-bs-interval="2000" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSe0V6Nn3Dremv-Dv9s5O94YXbWXQVu-am4uSKNbtZ1nvYVlxQ/viewform?usp=sf_link')" >
+                <img src="./thumb631c2b064ec43.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSe0V6Nn3Dremv-Dv9s5O94YXbWXQVu-am4uSKNbtZ1nvYVlxQ/viewform?usp=sf_link')" >
+                <img src="./8469399405598271591-1024x536.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-        
-       
-          <div class="card">
-            <h5>ROBOTICS</h5>
-            <img src="./robotics.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="#" class="btn btn-primary">Click Here!!</a>
-            </div>
-          </div>
-
-          <div class="card">
-            <h5>VIBRANZ</h5>
-            <img src="./vibranz.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="#" class="btn btn-primary">Click Here!!</a>
-            </div>
-          </div>
-
-          <div class="card">
-            <h5>SOULS</h5>
-            <img src="./souls.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="#" class="btn btn-primary">Click Here!!</a>
-            </div>
-          </div>
-
-          <div class="card">
-            <h5>MOVIE</h5>
-            <img src="./movie.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="#" class="btn btn-primary">Click Here!!</a>
-            </div>
-          </div>
-
-          <div class="card">
-            <h5>SAE</h5>
-            <img src="./SAE.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="#" class="btn btn-primary">Click Here!!</a>
-            </div>
-          </div>
-
-          <div class="card">
-            <h5>PIXELS</h5>
-            <img src="./pixels.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="#" class="btn btn-primary">Click Here!!</a>
-            </div>
-          </div>
-
-          
-          
         </div>
+        
+          <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="./enigma (3).png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Enigma</h5>
+                  <p class="card-text">This club is for programming enthusiast. Those who are intrested to join the club can contact the concerned authorities.</p>
+                <a  class="btn btn-primary" onClick="window.open('./enigmahtml.html')">Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./IIC1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">IIC</h5>
+                  <p class="card-text">This club is for innovators who have Idea that will change the world.</p>
+                <a  class="btn btn-primary" onClick="window.open('./enigmahtml.html')">Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./robotics1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Robotics</h5>
+                  <p class="card-text">This club is for robot lovers. You can make robots that makes life easy.</p>
+                <a class="btn btn-primary" onClick="window.open('./enigmahtml.html')">Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./vibranz1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Vibranz</h5>
+                  <p class="card-text">If you are a dance lover , this club is for you. This club supports all types of dance form.</p>
+                <a class="btn btn-primary" onClick="window.open('./enigmahtml.html')">Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./souls1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Souls</h5>
+                  <p class="card-text">This club is for singers. If you sing song then this club is for you.</p>
+                <a class="btn btn-primary" onClick="window.open('./enigmahtml.html')">Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./movie1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Emotica</h5>
+                  <p class="card-text">This club is for actors. If you can act or mimic this club is for you.</p>
+                  <a class="btn btn-primary" onClick="window.open('./enigmahtml.html')">Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./SAE1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">SAE</h5>
+                  <p class="card-text">If machines do not let you sleep, if you dream of making cars, this club is for you.</p>
+                <a class="btn btn-primary" onClick="window.open('./enigmahtml.html')">Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./pixels1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pixels</h5>
+                  <p class="card-text">Art lovers will love this club. This club is for artist full of creativity.</p>
+                <a class="btn btn-primary" onClick="window.open('./enigmahtml.html')">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      
 
       
     </main>
